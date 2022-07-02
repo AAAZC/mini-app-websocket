@@ -1,0 +1,32 @@
+<!--pages/gallery/gallery.wxml-->
+<view id="bendibaor">画廊</view>
+
+<view>
+<button id="dikuang"bindtap="choosePic">上传图片</button>
+<view wx:for="{{picture}}" >
+  <image src="{{item}}"></image>
+</view></view>
+
+<van-action-sheet close="shareClose"bind cancel="shareClose"cancel-text="取消"title="分享页⾯"
+show="{{ showShare }}">
+<view class="sharebox">
+<button id="wxfriend" open-type="share">
+<van-icon name="friends"size="30"color="#07c160"/>
+<view>
+发送给朋友
+</view>
+</button>
+  <button id="friendsquare"
+  bindtap="shareToPoster">
+  <van-icon name="photo"size="30"color="#c79f5d"/>
+    <view>
+    朋友圈
+    </view>
+  </button>
+</view>
+</van-action-sheet>
+
+<text id="dd1">欢迎使用本地宝APP小程序 </text>
+<text id="dd2">点击上方按钮可使用上传图片、分享功能</text>
+
+

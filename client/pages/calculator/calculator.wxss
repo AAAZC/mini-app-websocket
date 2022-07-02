@@ -1,0 +1,48 @@
+/* pages/calculator/calculator.wxss */
+
+.item{
+  display: flex;
+  flex-wrap: wrap;
+}
+.item1{
+  width: 750rpx;
+  height: 300rpx ;
+  background-color: lightsteelblue;
+  border-radius: 20rpx;
+  margin: 4rpx 10rpx;
+  display: flex;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 50rpx;
+}
+
+.item4{
+  width: 140rpx;
+  height: 140rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10rpx;
+}
+.item3{
+  width: 160rpx;
+  height: 160rpx;
+  display: flex;
+  /* border: 1rpx solid #000000;  */
+  border-radius: 20rpx;
+  margin: 5rpx;
+}
+button{
+  width: 160rpx;
+  height: 160rpx;
+  background-color: #eaecf3;
+  text-align: center;
+}
+
+

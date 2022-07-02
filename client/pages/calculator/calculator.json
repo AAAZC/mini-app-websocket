@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#aaccdd",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "计算器",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

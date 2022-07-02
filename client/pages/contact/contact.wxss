@@ -1,0 +1,37 @@
+/* pages/homework4/homework4.wxss */
+
+.item
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #efefef;
+}
+.item1{
+  width: 370rpx;
+  height: 550rpx;
+  display: flex;
+  flex-direction: column;
+  border: 1rpx solid light;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+.itemPic{
+  width: 345rpx;
+  height: 400rpx;
+  padding: 10rpx;
+  background-color: white;
+}
+.picture{
+  width: 340rpx;
+  height: 340rpx;
+  border-radius: 50%;
+}
+.itemText{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.itemTitle{
+  font-size: large;
+}

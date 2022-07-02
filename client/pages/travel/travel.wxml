@@ -1,0 +1,69 @@
+<!--pages/travel/travel.wxml-->
+<swiper class="banner" indicator-dots='true' mode="widthFix" indicator-color='#333' indicator-active-color='#f30' autoplay='true'>
+     <swiper-item> 
+     <image src="https://m.360buyimg.com/itplatform/jfs/t1/219766/25/20698/77851/62b51fc6Eb57525af/266550fd2296e445.png" mode="widthFix"></image>
+     </swiper-item>
+     <swiper-item> 
+     <image src="https://m.360buyimg.com/itplatform/jfs/t1/14155/23/17755/147306/62b03a1cEeedc9330/266811994f8bed98.png" mode="widthFix"></image>
+     </swiper-item>
+     <swiper-item> 
+     <image src="https://m.360buyimg.com/itplatform/jfs/t1/1105/22/18186/280035/62b451bfE363fef00/d8d39ff0db4e0afd.png" mode="widthFix"></image>
+     </swiper-item>
+     <swiper-item>
+     <image src="https://m.360buyimg.com/itplatform/jfs/t1/192235/19/26463/233340/62bad41aE376a90a4/921d0fc9f5eac07f.png" mode="widthFix"></image>
+     </swiper-item>
+     <swiper-item>
+    <image src="https://m.360buyimg.com/itplatform/jfs/t1/26086/5/17386/168585/62b4390dEa7ffb413/4bcc037e066e6b95.jpg" mode="widthFix"></image>
+     </swiper-item>
+    </swiper>
+
+
+<view class="outer">
+<image class="inner" src="https://m.360buyimg.com/itplatform/jfs/t1/149380/40/24740/47690/624eaa5dEc58cbece/8f94c5ad36740e4e.gif"></image>
+<image class="inner" src="https://m.360buyimg.com/itplatform/jfs/t1/206126/14/14698/20360/618b772eE8c388f7a/ff9e0a5ee3fdc5c8.png"></image>
+<image class="inner" src="https://m.360buyimg.com/itplatform/jfs/t1/202939/7/1972/261618/611ccdd0Ecebc2699/22b20525c6b25428.png"></image>
+<image class="inner" src="https://m.360buyimg.com/itplatform/jfs/t1/196429/38/18722/203762/611ccdf2Ea530602d/34091a0e918bcfce.png"></image>
+<image class="inner" src="https://m.360buyimg.com/itplatform/jfs/t1/189961/18/19004/185254/611cce18E4f3211f1/7e565bcdadc99dd6.png"></image>
+<image class="inner" src="https://m.360buyimg.com/itplatform/jfs/t1/190995/33/18950/220267/611cce2eE4f9bf1ef/79452c25246c9915.png"></image>
+</view>
+
+<swiper class="banner2">
+<swiper-item>
+<view class="sub" wx:for="{{jdtravel}}" wx:key="id">
+<image class="subpic" src="{{item.pic}}"></image>
+</view>
+</swiper-item>
+</swiper>
+
+<view class="outer2">
+  <view class="inner2">
+  <swiper class="banner3" circular="true" vertical="true" autoplay="true">
+  <swiper-item>
+  <image class="show" src="https://m.360buyimg.com/babel/jfs/t1/198388/32/3997/12472/611e55cbE054a08c9/c90655f61cc869c8.png"></image>
+  <text class="title">【安心出行】各地出行政策温馨提示</text>
+  </swiper-item>
+  <swiper-item>
+  <image class="show" src="https://m.360buyimg.com/babel/jfs/t1/198388/32/3997/12472/611e55cbE054a08c9/c90655f61cc869c8.png">
+  </image>
+  <text class="title">【川藏线】爱你，和你在林芝看桃花</text>
+  </swiper-item>
+  <swiper-item>
+  <image class="show" src="https://m.360buyimg.com/babel/jfs/t1/198388/32/3997/12472/611e55cbE054a08c9/c90655f61cc869c8.png">
+  </image>
+  <text class="title">去成都旅行，吃遍这几样才不虚此行！</text>
+  </swiper-item>
+  </swiper>
+</view>
+</view>
+
+<view class="box">
+<view class="box2" wx:for="{{jdtravel2}}" wx:key="id">
+<image class="box2pic" src="{{item.pic}}"></image>
+<text class="box2title" >{{item.title}}</text>
+<text class="jiage">{{item.price}}</text>
+</view>
+</view>
+
+
+
+

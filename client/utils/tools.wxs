@@ -1,0 +1,14 @@
+function dealPhone(str){
+  if(str === null) return str
+  if(str.length != 11) return str
+  else{
+    var arr = str.split('')
+    arr.splice(3, 0, '-')
+    arr.splice(8, 0, '-')
+    return arr.join('')
+  }
+}
+
+module.exports = {
+  dealPhone: dealPhone
+}

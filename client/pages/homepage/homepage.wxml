@@ -1,0 +1,32 @@
+<!-- poster -->
+<swiper autoplay="true" interval="3000" circular="true" indicator-dots="black">
+  <swiper-item wx:for="{{poster}}" wx:key="id" >
+    <image src="{{item.image}}" ></image>
+  </swiper-item>  
+</swiper>
+
+<view class="episode" >基础服务</view>
+
+<!-- grid -->
+<view class="grid" >
+  <navigator wx:for="{{grid}}" wx:key="id" wx:if="{{item.id < 6}}"
+    class="grid-chil" url="/pages/shop/shop?id={{item.id}}&name={{item.name}}" >
+    <image src="{{item.image}}" ></image>
+    <text>{{item.name}}</text>
+  </navigator>
+
+  <navigator class="grid-chil" url="/pages/travel/travel" >
+    <image src="{{grid[5].image}}" ></image>
+    <text>{{grid[5].name}}</text>
+  </navigator>
+</view>
+
+<view class="episode" >小插件</view>
+
+<view class="function">
+  <navigator class="function-chil" wx:for="{{funcICO}}" wx:key="id"
+    url="{{item.path}}">
+    <image src="{{item.image}}" ></image>
+    <text>{{item.name}}</text>
+  </navigator>
+</view>

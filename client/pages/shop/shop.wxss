@@ -1,0 +1,86 @@
+/* pages/shop/shop.wxss */
+
+page {
+  background-color: #efefef;
+}
+
+.top{
+	width:750rpx;
+	height:180rpx;
+	background-color:white;
+	display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 10rpx 10rpx;
+  border-radius: 20rpx;
+}
+
+.sub{
+	width:146rpx;
+	height:150rpx;
+	/* background-color:red; */
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+  align-items:center;
+  border-left: 1rpx solid #efefef;
+
+  
+
+}
+.subPic{
+	width:80rpx;
+	height:80rpx;
+  margin-bottom:10rpx;
+  /* 改变元素间的距离 */
+}
+.subTitle{
+	font-size:24rpx;
+	color:rgb(122, 122, 122);
+}
+
+
+
+.shop-item{
+
+  display: flex;
+  border: 1rpx solid #efefef;
+  border-radius: 16rpx;
+  margin: 20;
+
+}
+.item-all{
+  display: flex;
+  align-content: space-around;
+  border: 1rpx solid #ddd8ce;
+}
+.item1 {
+  width: 350rpx;
+  height: 350rpx;
+  margin-right: 25rpx;
+  background-color: rgb(232, 237, 245);
+}
+.picture{
+  width: 330rpx;
+  height: 330rpx;
+  margin: 10rpx;
+}
+
+.item2{
+  width: 350rpx;
+  height: 350rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 28rpx;
+  /* background-color: lightcoral; */
+}
+
+.title{
+  font-size: large;
+  font-weight: bold;
+}
+
+

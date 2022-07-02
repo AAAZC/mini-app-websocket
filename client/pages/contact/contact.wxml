@@ -1,0 +1,48 @@
+<!--pages/homework4/homework4.wxml-->
+<view class="item">
+  <view class="item1">
+      <view class="itemPic">
+        <image class="picture" 
+          src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg95.699pic.com%2Fxsj%2F14%2Fqu%2Fq9.jpg%21%2Ffw%2F700%2Fwatermark%2Furl%2FL3hzai93YXRlcl9kZXRhaWwyLnBuZw%2Falign%2Fsoutheast&refer=http%3A%2F%2Fimg95.699pic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1659314973&t=f4a1178a372fbc2d9197d249ac442046" mode="aspectFit"> </image>
+      </view>
+      <view class="itemText">
+        <text class="itemTitle">普鹏宇:</text>
+        <text> 负责模块：计算器，商品页面，关于我们</text>
+      </view>
+  </view>
+
+  <view class="item1">
+    <view class="itemPic">
+      <image class="picture" 
+        src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg95.699pic.com%2Fxsj%2F14%2Fqu%2Fq9.jpg%21%2Ffw%2F700%2Fwatermark%2Furl%2FL3hzai93YXRlcl9kZXRhaWwyLnBuZw%2Falign%2Fsoutheast&refer=http%3A%2F%2Fimg95.699pic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1659314973&t=f4a1178a372fbc2d9197d249ac442046" mode="aspectFit"> </image>
+    </view>
+    <view class="itemText">
+      <text class="itemTitle">钱志超:</text>
+      <text> 负责模块：服务器，轻聊，主页，商品页面交互</text>
+    </view>
+  </view>
+  <view class="item1">
+    <view class="itemPic">
+      <image class="picture" 
+        src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg95.699pic.com%2Fxsj%2F14%2Fqu%2Fq9.jpg%21%2Ffw%2F700%2Fwatermark%2Furl%2FL3hzai93YXRlcl9kZXRhaWwyLnBuZw%2Falign%2Fsoutheast&refer=http%3A%2F%2Fimg95.699pic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1659314973&t=f4a1178a372fbc2d9197d249ac442046" mode="aspectFit"> </image>
+    </view>
+    <view class="itemText">
+      <text class="itemTitle">刘若愚:</text>
+      <text> 负责模块：画廊模块</text>
+    </view>
+  </view>
+  <view class="item1">
+    <view class="itemPic">
+      <image class="picture" 
+      src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg95.699pic.com%2Fxsj%2F14%2Fqu%2Fq9.jpg%21%2Ffw%2F700%2Fwatermark%2Furl%2FL3hzai93YXRlcl9kZXRhaWwyLnBuZw%2Falign%2Fsoutheast&refer=http%3A%2F%2Fimg95.699pic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1659314973&t=f4a1178a372fbc2d9197d249ac442046" mode="aspectFit"> </image>
+    </view>
+    <view class="itemText">
+      <text class="itemTitle">宋子文:</text>
+      <text> 负责模块：旅游模块</text>
+    </view>
+  </view>
+</view>
+
+
+     
+ 

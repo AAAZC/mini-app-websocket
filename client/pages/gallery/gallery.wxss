@@ -1,0 +1,64 @@
+/* pages/gallery/gallery.wxss */
+
+#dikuang{
+  width: 750rpx;
+  height: 96rpx;
+  background-color:#d49e8a;
+  font-family: "楷体";
+  font-size:20px;  
+  border-radius: 20rpx;
+  margin: 10rpx 0;
+}
+#wxfriend{
+  width: 750rpx;
+  height: 96rpx;
+  background-color:#d49e7a;
+  font-family: "楷体";
+  font-size:20px;
+  border-radius: 20rpx;
+  margin: 10rpx 0;
+}
+#friendsquare{
+  width: 750rpx;
+  height: 96rpx;
+  background-color:#d49e6a;
+  font-family: "楷体";
+  font-size:20px;
+  justify-content:center;
+  border-radius: 20rpx;
+  margin: 10rpx 0;
+}
+
+Page{
+  background-color:#ffe3c1;
+}
+#bendibaor{
+  background-color: #ebad3cfd;
+  width: 400rpx;
+  height: 400rpx;
+  color: #f8fc28e3;
+  font-size: 36px;
+font-weight: bold;
+text-align: center;
+line-height: 400rpx;
+text-shadow: 4rpx 4rpx 6rpx #ffffff;
+font-family:"华文仿宋";
+padding-top: 30rpx;
+border-top: 60rpx double #fafe7a;
+border-bottom: 60rpx double #fafe7a;
+border-left: 60rpx double #e8ec3a;
+border-right: 60rpx double #e8ec3a;
+margin: 120rpx;
+
+}
+
+#dd1{
+  color: darkorchid;
+  font-size: 48rpx;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#dd2{
+  color:darkslateblue;
+  font-size: 48rpx;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

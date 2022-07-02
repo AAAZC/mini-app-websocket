@@ -1,0 +1,48 @@
+<!--pages/calculator/calculator.wxml-->
+<view class="item"> 
+
+<view class="item1"> 
+
+  <view class="item4">
+  {{x}}
+   </view>
+   <view class="item4">
+  {{fuhao}}
+   </view>
+    <view class="item4">
+  {{y}}
+   </view>
+  <view class="item4">
+  =
+  </view>
+  <view class="item4">
+  {{result}}
+  </view>
+  
+</view>
+
+<view class="item2">
+    <view class="item3"><button bindtap="setnull">  C</button> </view>
+    <view class="item3"><button bindtap="quyu">     %</button> </view>
+    <view class="item3"><button bindtap="shangchu"> 删</button> </view>
+    <view class="item3"><button bindtap="chu">      /</button> </view>
+    <view class="item3"><button bindtap="number7">  7</button> </view>
+    <view class="item3"><button bindtap="number8">  8</button> </view>
+    <view class="item3"><button bindtap="number9">  9</button> </view>
+    <view class="item3"><button bindtap="cheng">    *</button> </view>
+    <view class="item3"><button bindtap="number4">  4</button> </view>
+    <view class="item3"><button bindtap="number5">  5</button> </view>
+    <view class="item3"><button bindtap="number6">  6</button> </view>
+    <view class="item3"><button bindtap="jian" >    -</button> </view>
+    <view class="item3"><button bindtap="number1">  1</button> </view>
+    <view class="item3"><button bindtap="number2">  2</button> </view>
+    <view class="item3"><button bindtap="number3">  3</button> </view>
+    <view class="item3"><button bindtap="jia">      +</button> </view>
+    <view class="item3"><button style="background-color: #ffbe48;" bindtap="lingling"> 00</button> </view>
+    <view class="item3"><button bindtap="ling">     0</button> </view>
+    <view class="item3"><button bindtap="dian">     .</button> </view>
+    <view class="item3"><button style="background-color: lightblue;" bindtap="dengyu">   =</button> </view>
+
+</view>
+
+</view>

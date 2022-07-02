@@ -1,0 +1,109 @@
+/* 全局 */
+page {
+  background-color:#efefef;
+}
+
+.wechart{
+  margin: 0 30rpx;
+}
+
+/* 聊天框 */
+.list .msg-item:first-child {
+  margin-top: 20rpx;
+}
+
+.list .msg-item {
+  /* display: flex; */
+  /* align-items: center; */
+  margin-bottom: 30rpx;
+}
+
+.list .msg-item .chat {
+  /* background-color: aquamarine; */
+  display: flex;
+}
+
+.list .msg-item .chat view{
+  background-color: #fff;
+  padding: 25rpx 50rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.list .msg-item .chat image {
+  height: 95rpx;
+  width: 95rpx;
+  margin-right: 50rpx;
+  border-radius: 50%;
+}
+
+/* 自己发的消息 */
+.list .msg-item .my-chat {
+  /* background-color: rgb(175, 94, 230); */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list .msg-item .my-chat view{
+  background-color: #fff;
+  padding: 25rpx 50rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.list .msg-item .my-chat image {
+  height: 95rpx;
+  width: 95rpx;
+  margin-left: 50rpx;
+  border-radius: 50%;
+}
+
+
+/* 欢迎界面 */
+.list .msg-item .welcome {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.list .msg-item .welcome view{
+  background-color: #ffffff;
+  padding: 5rpx 40rpx;
+  font-size: 30rpx;
+
+  font-family:'Times New Roman', Times, serif;
+
+  color: black;
+  font-weight: 200;
+  border-radius: 20rpx;
+}
+
+/* 输入框 */
+.input {
+  position: fixed; /* 固定 */
+  width: 100%;
+  bottom: 0;
+  height: 90rpx;
+  background-color: white;
+
+  border-radius: 20rpx 20rpx 20rpx 0;
+}
+
+.input .content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.input .content button{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input .content input{
+  width: 90%;
+}

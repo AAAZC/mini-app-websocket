@@ -1,0 +1,128 @@
+/* pages/travel/travel.wxss */
+swiper{
+  height: 222rpx;
+  width: 750rpx;
+}
+swiper image{
+  width: 100%;
+}
+
+
+
+.outer{
+   width: 750rpx;
+   height: 260rpx;
+   background-color: transparent;
+   border-radius: 20rpx;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.inner{
+    width: 250rpx;
+    height: 130rpx;
+    border-radius: 20rpx;
+}
+.banner2{
+  height: 100rpx;
+}
+
+
+swiper-item{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.sub{
+  width: 600rpx;
+  height: 100rpx;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subpic{
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 10rpx;
+}
+
+.outer2{
+  width: 750rpx;
+  height: 80rpx;
+  background-color:burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner3{
+  width: 634rpx;
+  height: 40rpx;
+  padding-left:5rpx ;
+  
+  
+
+}
+.inner2{
+  width: 700rpx;
+  height: 50rpx;
+  background-color: white;
+  border: white;
+  border-radius: 20rpx;  
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+.show{
+  width: 100rpx;
+  height: 30rpx;
+}
+
+.title{
+font-size: 30rpx;
+margin-left: 10rpx;
+}
+
+
+.box{
+   width: 750rpx;
+   background-color:transparent;
+   display: flex;
+   flex-wrap: wrap;
+
+
+
+}
+
+.box2{
+width: 371rpx;
+height: 530rpx;
+background-color: lightskyblue;
+border: 1rpx dotted;
+border-radius: 20rpx;
+display: flex;
+flex-direction:column;
+}
+
+
+
+.box2pic{
+width: 371rpx;
+height: 371rpx;
+
+}
+
+.box2title{
+font-size: 26rpx;
+color: #262626;
+}
+
+.jiage{
+font-size: 36rpx;
+color: red;
+
+}

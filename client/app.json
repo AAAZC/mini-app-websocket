@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/homepage/homepage",
+    "pages/contact/contact",
+    "pages/travel/travel",
+    "pages/shop/shop",
+
+    "pages/wechart/wechart",
+    "pages/gallery/gallery",
+    "pages/calculator/calculator"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#aaccdd",
+    "navigationBarTitleText": "本地宝",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/homepage/homepage",
+        "text": "主页",
+        "iconPath": "/images/tabs/home.png",
+        "selectedIconPath": "/images/tabs/home2.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "关于我们",
+        "iconPath": "/images/tabs/we.png",
+        "selectedIconPath": "/images/tabs/we2.png"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

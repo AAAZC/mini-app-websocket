@@ -1,0 +1,24 @@
+<!--pages/shop/shop.wxml-->
+
+<view class="top">  
+	<view class="sub" wx:for="{{funcICO}}" wx:key="id" >
+		<image class="subPic" src="{{item.image}}"></image>
+		<test class="subTitle">{{item.name}}</test>
+	</view>
+</view>
+
+<view class="shop-item" wx:for="{{shopList}}" wx:key="id">
+  <view class="item-all">
+    <view class="item1"> 
+      <image class="picture" src="{{item.images[0]}}" mode="aspectFit"></image>
+    </view>
+    <view class="item2">
+      <text class="title">{{item.name}}</text>
+      <text >电话：{{tools.dealPhone(item.phone)}}</text>
+      <text >地址：{{item.address}}</text>
+      <text >营业时间：{{item.businessHours}}</text>
+    </view>
+  </view>
+</view>
+
+<wxs src="../../utils/tools.wxs" module="tools" ></wxs>
